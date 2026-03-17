@@ -30,6 +30,7 @@ import {
 } from "@/components/ui/select";
 import { Search, Plus, Zap, Shield, Heart } from "lucide-react";
 import { CustomJumbotron } from "@/components/custom/CustomJumbotron";
+import { HeroStats } from "@/heroes/components/HeroStats";
 
 interface Hero {
   id: string;
@@ -184,6 +185,10 @@ export const HomePage = () => {
           title="Universo de SuperHéroes"
           description="Descubre, explora sus superhéroes y villanos favoritos"
         />
+
+        {/* Stats Dashboard */}
+        <HeroStats />
+
         {/* Search and Add Hero Section */}
         <div className="flex flex-col sm:flex-row gap-4 mb-8">
           <div className="relative flex-1">
