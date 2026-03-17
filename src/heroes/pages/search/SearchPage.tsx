@@ -6,8 +6,8 @@ export const SearchPage = () => {
   return (
     <>
       <CustomJumbotron
-        title="Busqueda tus favoritos"
-        description="Descubre, explora sus superhéroes y villanos favoritos"
+        title="Busca a tus favoritos"
+        description="Descubra y explore sus superhéroes y villanos favoritos"
       />
 
       {/* Stats Dashboard */}
